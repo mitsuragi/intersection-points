@@ -1,0 +1,66 @@
+﻿<Window x:Class="testWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:testWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="400">
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="152*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="115*"/>
+        </Grid.RowDefinitions>
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Button x:Name="startBtn" Content="Найти пересечения" Margin="20,7,0,170" Click="startBtn_Click" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="140" Grid.Row="2">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.03"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.037"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="exitBtn" Content="Выход" Margin="0,7,20,170" Click="exitBtn_Click" HorizontalAlignment="Right" Width="140" Grid.Row="2"/>
+        <Menu Height="24" VerticalAlignment="Top" Background="LightGray" Padding="3, 2">
+            <MenuItem Header="Файл">
+                <MenuItem x:Name="UploadItem" Header="Загрузить из файла" Click="uploadFileItem_Click"/>
+                <MenuItem Header="Сохранить в файл">
+                    <MenuItem x:Name="InitialSaveItem" Header="Исходные данные" Click="initialSaveItem_Click"/>
+                    <MenuItem x:Name="ResultSaveItem" Header="Результат" Click="resultSaveItem_Click"/>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Информация">
+                <MenuItem x:Name="AboutItem" Header="Справка" Click="AboutItem_Click"/>
+            </MenuItem>
+        </Menu>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="10,34,10,0">
+            <TextBlock x:Name="TextOutputBlock" TextWrapping="Wrap" Padding="5"/>
+        </Border>
+        <TextBlock HorizontalAlignment="Left" Margin="20,0,0,110" Grid.Row="2" TextWrapping="Wrap" Width="220" Height="40" VerticalAlignment="Bottom"><Run Language="ru-ru" Text="Введите координаты 2 точек для"/><LineBreak/><Run Language="ru-ru" Text="определения уравнения луча"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,0,0,50" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="40" Width="220"><Run Language="ru-ru" Text="Введите координаты центра окружности и его радиус"/></TextBlock>
+        <TextBox x:Name="BeamX0InputBox" Margin="0,0,90,130" Grid.Row="2" TextWrapping="Wrap" Text="" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="40"/>
+        <TextBox x:Name="BeamY0InputBox" Margin="0,0,20,130" Grid.Row="2" TextWrapping="Wrap" Text="" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="40"/>
+        <Label Content="x0:" HorizontalAlignment="Right" Margin="0,0,130,130" Grid.Row="2" VerticalAlignment="Bottom" Height="20" Width="20" FontSize="10" Padding="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        <Label Content="y0:" HorizontalAlignment="Right" Margin="0,0,60,130" Grid.Row="2" VerticalAlignment="Bottom" Height="20" Width="20" FontSize="10" Padding="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="BeamX1InputBox" Margin="0,0,90,110" Grid.Row="2" TextWrapping="Wrap" Text="" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="40"/>
+        <TextBox x:Name="BeamY1InputBox" Margin="0,0,20,110" Grid.Row="2" TextWrapping="Wrap" Text="" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="40"/>
+        <Label Content="x1:" HorizontalAlignment="Right" Margin="0,0,130,110" Grid.Row="2" VerticalAlignment="Bottom" Height="20" Width="20" FontSize="10" Padding="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        <Label Content="y1:" HorizontalAlignment="Right" Margin="0,0,60,110" Grid.Row="2" VerticalAlignment="Bottom" Height="20" Width="20" FontSize="10" Padding="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="CircleX0InputBox" Margin="0,0,90,70" Grid.Row="2" TextWrapping="Wrap" Text="" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="40"/>
+        <TextBox x:Name="CircleY0InputBox" Margin="0,0,20,70" Grid.Row="2" TextWrapping="Wrap" Text="" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="40"/>
+        <Label Content="x0:" HorizontalAlignment="Right" Margin="0,0,130,70" Grid.Row="2" VerticalAlignment="Bottom" Height="20" Width="20" FontSize="10" Padding="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        <Label Content="y0:" HorizontalAlignment="Right" Margin="0,0,60,70" Grid.Row="2" VerticalAlignment="Bottom" Height="20" Width="20" FontSize="10" Padding="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="CircleRadiusInputBox" Margin="0,0,20,50" Grid.Row="2" TextWrapping="Wrap" Text="" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="40"/>
+        <Label Content="Радиус:" HorizontalAlignment="Right" Margin="0,0,60,50" Grid.Row="2" VerticalAlignment="Bottom" Height="20" Width="40" FontSize="10" Padding="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+    </Grid>
+</Window>

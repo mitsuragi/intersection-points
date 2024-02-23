@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\12\\source\\repos\\testWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEECF4E0-42E1-47BB-A2A7-DD063B75AF0D}|testWPF\\lab1.csproj|c:\\users\\12\\source\\repos\\testwpf\\testwpf\\filelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEECF4E0-42E1-47BB-A2A7-DD063B75AF0D}|testWPF\\lab1.csproj|solutionrelative:testwpf\\filelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEECF4E0-42E1-47BB-A2A7-DD063B75AF0D}|testWPF\\lab1.csproj|c:\\users\\12\\source\\repos\\testwpf\\testwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEECF4E0-42E1-47BB-A2A7-DD063B75AF0D}|testWPF\\lab1.csproj|solutionrelative:testwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEECF4E0-42E1-47BB-A2A7-DD063B75AF0D}|testWPF\\lab1.csproj|c:\\users\\12\\source\\repos\\testwpf\\testwpf\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEECF4E0-42E1-47BB-A2A7-DD063B75AF0D}|testWPF\\lab1.csproj|solutionrelative:testwpf\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB7947A-7039-4E67-ACE1-6C408331AE57}|UnitTests\\UnitTests.csproj|c:\\users\\12\\source\\repos\\testwpf\\unittests\\logictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB7947A-7039-4E67-ACE1-6C408331AE57}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\logictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB7947A-7039-4E67-ACE1-6C408331AE57}|UnitTests\\UnitTests.csproj|c:\\users\\12\\source\\repos\\testwpf\\unittests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB7947A-7039-4E67-ACE1-6C408331AE57}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\testWPF\\testWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "testWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\testWPF\\testWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "testWPF\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T11:05:30.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileLogic.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\testWPF\\testWPF\\FileLogic.cs",
+              "RelativeDocumentMoniker": "testWPF\\FileLogic.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\testWPF\\testWPF\\FileLogic.cs",
+              "RelativeToolTip": "testWPF\\FileLogic.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAuwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T11:03:02.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logic.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\testWPF\\testWPF\\Logic.cs",
+              "RelativeDocumentMoniker": "testWPF\\Logic.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\testWPF\\testWPF\\Logic.cs",
+              "RelativeToolTip": "testWPF\\Logic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T07:27:29.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogicTests.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\testWPF\\UnitTests\\LogicTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\LogicTests.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\testWPF\\UnitTests\\LogicTests.cs",
+              "RelativeToolTip": "UnitTests\\LogicTests.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T07:27:20.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\testWPF\\UnitTests\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "UnitTests\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\testWPF\\UnitTests\\GlobalUsings.cs",
+              "RelativeToolTip": "UnitTests\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T07:27:19.624Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
